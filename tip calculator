@@ -1,0 +1,16 @@
+# Define the bill amount
+bill = 50.7  # Example amount in dollars
+
+# Define the tip percentage
+tip_percentage = 15  # Tip percentage, for example 15%
+
+# Calculate the tip amount
+tip = bill * (tip_percentage / 100)
+
+# Calculate the total amount paid
+total = bill + tip
+
+# Print the values
+print(f"Bill: ${bill}")
+print(f"Tip: ${tip}")
+print(f"Total: ${total}")
