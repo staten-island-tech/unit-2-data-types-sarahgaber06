@@ -1,5 +1,7 @@
 input_sentence = input("Write a setence")
 print(input_sentence)
-def word_count
-word_count = len(words)  # Count the number of words
-print(f"The number of words in your sentence is: {word_count}")
+def word_count():
+    x= input_sentence.split()  
+    print(len(x))
+    print(f"The number of words in your sentence is: {word_count}")
+word_count()
