@@ -1,0 +1,21 @@
+""" input_sentence = input("Write a setence")
+print(input_sentence)
+def word_count():
+    x= input_sentence.split()  
+    print(len(x))
+    print(f"The number of words in your sentence is: {word_count}")
+word_count() """
+
+#Mad Libs 
+Singer = input("Write singer's name")   #represents Drake, the singer
+Noun1 = input("Write noun's name")      #represents music
+Noun2 = input("Write noun's name")      #represents album
+Verb1 = input("Write verb's name")      #represents touring
+Verb2 = input("Write verb's name")      #represents singing
+Verb3 = input("Write verb's name")      #represents dancing
+Number = input("Write Singer's age")    #represents Drake's age
+
+def SingerMadLibs():
+    print(f"""{Singer} is {Number} years old and is still putting out {Noun1} while {Verb1}. His very entertain9ing and diverse {Noun2} is super entertaining.
+           He even starts {Verb3} at his concerts and brings out many special guests in the same field. His dedication to songwriting is super prominant and it is clear he is very good at {Verb2}.""")
+SingerMadLibs()
