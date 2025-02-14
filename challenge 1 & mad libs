@@ -16,6 +16,7 @@ Verb3 = input("Write verb's name")      #represents dancing
 Number = input("Write Singer's age")    #represents Drake's age
 
 def SingerMadLibs():
-    print(f"""{Singer} is {Number} years old and is still putting out {Noun1} while {Verb1}. His very entertain9ing and diverse {Noun2} is super entertaining.
-           He even starts {Verb3} at his concerts and brings out many special guests in the same field. His dedication to songwriting is super prominant and it is clear he is very good at {Verb2}.""")
+    print("""{Singer} is {Number} years old and is still putting out {Noun1} while {Verb1}. His very entertaining and diverse {Noun2} is super entertaining.
+           He even starts {Verb3} at his concerts and brings out many special guests in the same field. His dedication to songwriting is super prominant
+           and it is clear he is very good at {Verb2}. His new {Noun2} is being released on Valentine's Day, with another artist, Party Next Door. """)
 SingerMadLibs()
