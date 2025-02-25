@@ -24,8 +24,23 @@ calculate_total(100) """
 
 
 
-#Create a function that accepts an input and determines all factors of a number
+""" #Create a function that accepts an input and determines all factors of a number
+
+def find_factors(number):
+    factors = []
+    for i in range(1, number + 1):
+        if number % i == 0:
+            factors.append(i)
+    print(factors)
+find_factors(10)
+ """
 
 
+#Create a function that accepts 2 arguments. Find the greatest common factor between those numbers
 
-    
+def gcf(number1, number2):
+    while number2:
+        number1, number2b = number2, number1 % number2
+    return number1
+
+print(gcf(56, 98))  # Output: 14
