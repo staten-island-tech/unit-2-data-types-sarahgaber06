@@ -25,7 +25,6 @@ calculate_total(100) """
 
 
 """ #Create a function that accepts an input and determines all factors of a number
-
 def find_factors(number):
     factors = []
     for i in range(1, number + 1):
@@ -37,10 +36,10 @@ find_factors(10)
 
 
 #Create a function that accepts 2 arguments. Find the greatest common factor between those numbers
+def gcf(a, b):
+    while b:
+        a, b = b, a % b
+    return a
 
-def gcf(number1, number2):
-    while number2:
-        number1, number2b = number2, number1 % number2
-    return number1
-
+# Example usage
 print(gcf(56, 98))  # Output: 14
