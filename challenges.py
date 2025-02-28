@@ -36,10 +36,10 @@ find_factors(10)
 
 
 #Create a function that accepts 2 arguments. Find the greatest common factor between those numbers
-def gcf(a, b):
-    while b:
-        a, b = b, a % b
-    return a
-
-# Example usage
-print(gcf(56, 98))  # Output: 14
+def find_factors(number1, number2):
+    factors = []
+    for i in range(1, number1 + 1):
+        if number1 % i and number2 % i == 0:
+                factors.append(i)
+        print(factors)
+    find_factors(56,98)
